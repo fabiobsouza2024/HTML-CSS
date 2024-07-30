@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(204, 252, 222);
+}
+
+.contato {
+    background-color: transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3e13a8;
+    text-align: left;
+    text-shadow: 1px 1px 2px #1b084b;
+   
+}
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px;
+    width: 600px;
+    padding: 5px;
+    margin: auto
+}
+
+h1 {
+    background-color:#28dbae;
+    font-family: cursive;
+    color: #008f21;
+    text-align: center;
+    text-shadow: 1px 1px 2px #006618;
+}
+
+h2 {
+    font-family: cursive;
+    font-weight: 100;
+    color: #992b00;
+}
+
+li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    color: #008f6f;
+    text-shadow: 1px 1px 2px #004637;
+}
+
+p {
+    text-indent: 20px;
+    text-align: justify;
+}
