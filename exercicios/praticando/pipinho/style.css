@@ -1,18 +1,49 @@
 @charset "UTF-8";
 
+
+
+
+:root {
+    --cor01: #0b6fd3;
+    --cor02: #095db1;
+    --cor03: #0a73db;
+    --cor04: #074b8f;
+    --cor05: #05396d;
+    --cor06: #04274b;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.089);
+}
+
 header {
-    background-color: aquamarine;
+    background-color: rgb(3, 3, 3);
+    color: white;
     padding: 2em;
-    padding-bottom: 100%;
-    margin-right: 3em;
-    border-top-left-radius: 5px;
+    padding-bottom: 30px;
+    margin-right: auto;
+    text-align: center;
 }
 
-* {
-    margin: 0px;
-    padding: 0px;
+header > input {
+    width: 500px;
 }
 
-header > img {
-    
+
+nav {
+    background-color: red;
+    padding: 10px;
+    color: white;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+div > video {
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px black;
+    padding-top: ;
+    padding: 10px;
 }
