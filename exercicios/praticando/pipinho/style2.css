@@ -11,10 +11,9 @@ body {
     background-attachment: fixed;
 }
 
-iframe {
+div > iframe {
     background-color: aliceblue;
     box-shadow: 5px 5px 5px black;
-    position: relative;
 }
 
 h1 {
