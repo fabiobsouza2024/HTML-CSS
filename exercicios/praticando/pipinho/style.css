@@ -3,6 +3,7 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+   
 }
 
 :root {
@@ -22,14 +23,20 @@ header {
     background-image: linear-gradient(to bottom, black, red);
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
     color: white;
-    padding: 2em;
-    padding-bottom: 30px;
+    padding: 10px;
+  
     margin-right: auto;
     text-align: center;
 }
 
-header > input {
+div {
+    margin: ;
+}
+
+input {
+    margin: auto;
     width: 400px;
+
 }
 
 
