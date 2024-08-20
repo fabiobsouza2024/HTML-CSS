@@ -3,7 +3,8 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-   
+    margin: 0px;
+    padding: 0px;
 }
 
 :root {
@@ -13,48 +14,4 @@
     --cor04: #074b8f;
     --cor05: #05396d;
     --cor06: #04274b;
-}
-
-body {
-    background-color: lightgrey;
-}
-
-header {
-    background-image: linear-gradient(to bottom, black, red);
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    color: white;
-    padding: 10px;
-  
-    margin-right: auto;
-    text-align: center;
-}
-
-div {
-    margin: ;
-}
-
-input {
-    margin: auto;
-    width: 400px;
-
-}
-
-
-nav {
-    background-color: red;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    color: white;
-}
-
-a {
-    color: white;
-    text-decoration: none;
-}
-
-aside {
-    background-color: white;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
-    text-align: center;
-    padding: 10px;
 }
