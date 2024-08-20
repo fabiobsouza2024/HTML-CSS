@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: lightgrey;
+    background-image: linear-gradient(to left, rgb(240, 127, 127), rgb(97, 97, 97));
 }
 
 header {
@@ -31,4 +31,14 @@ nav {
 .diferenciado {
     margin: 0px;
     padding: 0px;
+}
+
+main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+nav {
+    margin-bottom: 10px;
 }
