@@ -7,23 +7,22 @@ body {
 
 main {
     width: 95%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 10px;
 }
 
 div.video {
     background-color: brown;
-    margin: 0px -5px 0px 10px;
+    margin: 0px -20px 0px -20px;
     padding: 20px;
-    padding-bottom: 30%;
+    padding-bottom: 50%;
     position: relative;
-    height: 150px;
 }
 
 div.video > iframe {
     position: absolute;
-    top: 5%;
+    top: 2%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -36,12 +35,13 @@ iframe {
 }
 
 nav {
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 h5 {
     width: 60px;
     margin: auto;
+    margin-top: 0px;
     text-align: center;
     background-color: white;
     padding: 5px;    
