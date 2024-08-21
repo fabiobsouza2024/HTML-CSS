@@ -3,9 +3,13 @@
 
 body {
     background-image: linear-gradient(to center, red, black);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
 }
 
 main {
+    margin: auto;
     width: 95%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -22,7 +26,7 @@ div.video {
 
 div.video > iframe {
     position: absolute;
-    top: 2%;
+    top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
