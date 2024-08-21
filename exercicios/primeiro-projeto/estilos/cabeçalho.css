@@ -32,18 +32,41 @@ nav {
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.363);
 }
 
+nav > a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover {
+    background-color: rgb(177, 56, 56);
+    text-decoration: underline;
+
+
+}
+
 .diferenciado {
     margin: 0px;
     padding: 0px;
 }
 
 main {
-    min-width: 300px;
+    min-width: 350px;
     max-width: 1000px;
     margin: auto;
     display: block;
+    colu
 }
 
 nav {
     margin-bottom: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
 }

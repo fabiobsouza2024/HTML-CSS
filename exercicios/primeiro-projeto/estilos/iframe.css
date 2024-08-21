@@ -2,11 +2,12 @@
 
 
 body {
-    background-image: linear-gradient(to center, red, black);
-    min-width: 300px;
-    max-width: 1000px;
+    height: 100%;
+    background-image: linear-gradient(to top,  rgb(2, 2, 2) 2%, transparent 50%);
+   
     margin: auto;
 }
+
 
 main {
     margin: auto;
@@ -43,11 +44,37 @@ nav {
     margin-bottom: 0px;
 }
 
+/*main img {
+    width: 100%;
+}
+
+main img.pq {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}*/
+
 h5 {
     width: 60px;
     margin: auto;
     margin-top: 0px;
     text-align: center;
-    background-color: white;
-    padding: 5px;    
+    padding-bottom: 5px;
+}
+
+h5 > a {
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+h5 > a:hover {
+    background-color: brown;
+    
+
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
 }
