@@ -8,7 +8,13 @@
 }
 
 body {
-    background-image: linear-gradient(to left, rgb(240, 127, 127), rgb(97, 97, 97));
+    height: 100vh;
+    background-color: black;
+    background-image: url('../imagens/wallpaper3.jpg');
+    background-position: to top;
+    background-repeat: repeat-x;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 header {
@@ -22,6 +28,7 @@ header {
 
 h1 {
     text-align: center;
+    color: white;
 }
 
 nav {
@@ -66,7 +73,8 @@ nav {
 }
 
 footer {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.377);
     color: white;
     text-align: center;
+    padding: 10px;
 }
