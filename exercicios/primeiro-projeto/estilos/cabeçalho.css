@@ -11,8 +11,8 @@ body {
     height: 100vh;
     background-color: black;
     background-image: url('../imagens/wallpaper3.jpg');
-    background-position: to top;
-    background-repeat: repeat-x;
+    background-position: center center;
+    background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
