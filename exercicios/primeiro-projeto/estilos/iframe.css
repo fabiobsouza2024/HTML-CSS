@@ -2,15 +2,19 @@
 
 
 body {
-    background-image: linear-gradient(to center, red, black);
+    height: 100%;
+    background-image: url('../imagens/wallpaper3.jpg');
 }
 
+
 main {
+    margin: auto;
     width: 95%;
     margin-top: 0px;
     margin-bottom: 0px;
     padding: 10px;
 }
+
 
 div.video {
     background-color: brown;
@@ -22,7 +26,7 @@ div.video {
 
 div.video > iframe {
     position: absolute;
-    top: 2%;
+    top: 5%;
     left: 5%;
     width: 90%;
     height: 90%;
@@ -38,11 +42,37 @@ nav {
     margin-bottom: 0px;
 }
 
+/*main img {
+    width: 100%;
+}
+
+main img.pq {
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}*/
+
 h5 {
     width: 60px;
     margin: auto;
     margin-top: 0px;
     text-align: center;
-    background-color: white;
-    padding: 5px;    
+    padding-bottom: 5px;
+}
+
+h5 > a {
+    text-decoration: none;
+    color: white;
+    transition-duration: 0.5s;
+}
+
+h5 > a:hover {
+    background-color: brown;
+    
+
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
 }
