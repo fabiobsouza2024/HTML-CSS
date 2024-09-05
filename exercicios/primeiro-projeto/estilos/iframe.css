@@ -1,9 +1,10 @@
 @charset "UTF-8";
 
 
-body {
+body, html {
     height: 100%;
     background-image: url('../imagens/wallpaper3.jpg');
+
 }
 
 
